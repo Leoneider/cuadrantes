@@ -10,8 +10,7 @@ export class AppComponent {
   title = 'cuadrantes';
   private platform: any;
 
-  @ViewChild('map')
-  public mapElement: ElementRef;
+  @ViewChild('map') public mapElement: ElementRef;
 
   public constructor() {
     this.platform = new H.service.Platform({
